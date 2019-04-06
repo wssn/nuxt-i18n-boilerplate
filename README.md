@@ -1,8 +1,8 @@
 # nuxt-i18n-boilerplate
 
-> My remarkable Nuxt.js project
+> A boilerplate for rapid application development using Nuxt i18n.
 
-## Build Setup
+## Get Started
 
 ``` bash
 # install dependencies
