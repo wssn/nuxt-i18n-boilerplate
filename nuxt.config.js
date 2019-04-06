@@ -4,9 +4,6 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
 
-  /*
-  ** Headers of the page
-  */
   head: {
     title: pkg.name,
     meta: [
@@ -19,46 +16,48 @@ module.exports = {
     ]
   },
 
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
+  loading: { color: '#007bff', height: '2px' },
 
-  /*
-  ** Global CSS
-  */
   css: [
   ],
 
-  /*
-  ** Plugins to load before mounting the App
-  */
   plugins: [
   ],
 
-  /*
-  ** Nuxt.js modules
-  */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
+    ['nuxt-i18n', {
+      locales: [
+        {
+          code: 'en',
+          iso: 'en-GB',
+          name: 'English',
+          file: 'en.js'
+        },
+        {
+          code: 'tr',
+          iso: 'tr-TR',
+          name: 'Türkçe',
+          file: 'tr.js'
+        }
+      ],
+      detectBrowserLanguage: {
+        useCookie: true,
+        cookieKey: 'i18n_redirected'
+      },
+      defaultLocale: 'en',
+      lazy: true,
+      langDir: 'lang/',
+      fallbackLocale: 'en'
+    }]
   ],
-  /*
-  ** Axios module configuration
-  */
+
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
   },
 
-  /*
-  ** Build configuration
-  */
+
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend(config, ctx) {
     }
   }
