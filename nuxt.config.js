@@ -19,6 +19,8 @@ module.exports = {
   loading: { color: '#007bff', height: '2px' },
 
   css: [
+    '@/assets/css/style.css',
+    '@/assets/css/sass/style.scss'
   ],
 
   plugins: [

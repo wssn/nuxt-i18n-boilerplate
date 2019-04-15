@@ -10,6 +10,7 @@ export default {
     },
     example: {
         route: "Example Route",
+        welcome: "Example Route",
         seo: {
             title: "Nuxt-i18n-boilerplate",
             content: "Production ready Nuxt boilerplate with Sass, Nuxt i18n and dynamic head",

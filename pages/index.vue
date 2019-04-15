@@ -13,6 +13,7 @@
         
         <nuxt-link :to="localePath('example')">{{ $t('index.welcome') }}</nuxt-link>
         <div class="links">
+
         
         </div>
       </div>
