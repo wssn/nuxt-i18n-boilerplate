@@ -1,7 +1,7 @@
 {
   "name": "nuxt-i18n-boilerplate",
-  "version": "1.0.0",
-  "description": "My remarkable Nuxt.js project",
+  "version": "1.1.0",
+  "description": "A boilerplate for rapid application development using Nuxt i18n.",
   "author": "Oguzcan Kose",
   "private": true,
   "scripts": {
@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
-    "bootstrap-vue": "^2.0.0-rc.16",
+    "bootstrap-vue": "^2.1.0",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "node-sass": "^4.11.0",
-    "nuxt": "^2.4.0",
-    "nuxt-i18n": "^5.8.5",
+    "nuxt": "^2.10.2",
+    "nuxt-i18n": "^6.4.0",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
