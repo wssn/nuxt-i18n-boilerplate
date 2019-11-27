@@ -35,13 +35,13 @@ module.exports = {
           code: 'en',
           iso: 'en-GB',
           name: 'English',
-          file: 'en.js'
+          file: 'en.json'
         },
         {
           code: 'tr',
           iso: 'tr-TR',
           name: 'Türkçe',
-          file: 'tr.js'
+          file: 'tr.json'
         }
       ],
       detectBrowserLanguage: {
