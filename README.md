@@ -25,6 +25,26 @@ npm run dev
 
 There is a `lang` directory in root folder. Each language has their own `.json` file.
 
+nuxt.config.js
+
+```javascript
+  locales: [
+    {
+      code: 'en',
+      iso: 'en-GB',
+      name: 'English',
+      file: 'en.json'
+    },
+    {
+      code: 'tr',
+      iso: 'tr-TR',
+      name: 'Türkçe',
+      file: 'tr.json'
+    }
+  ],
+```
+
+
 ### SEO Friendly URLs
 
 pages/example.vue
