@@ -2,6 +2,8 @@
 Minimalistic Boilerplate for Nuxt.JS applications with fully ready Nuxt i18n module.
 
 
+## [Demo](https://nuxt-i18n-boilerplate.now.sh)
+
 ## Installation
 
 ```sh
