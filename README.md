@@ -16,7 +16,7 @@ npm run dev
 - Integration with [nuxt-i18n](https://nuxt-community.github.io/nuxt-i18n/)
 - [Boostrap Vue](https://bootstrap-vue.js.org/)
 - Search Engine Optimization
-- Well-organized separated language files.
+- Well-organized separated language files
 - SEO friendly URL
 
 ## Language Files
